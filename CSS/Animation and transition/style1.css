@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: blue;
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid black;
+}
+.box{
+    background-color: white;
+    height: 100px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 5px;
+    position: relative;
+    animation-name: rightmove;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-direction: alternate; 
+    animation-fill-mode: both;
+    
+}
+@keyframes rightmove {
+    from{
+        top: 0;
+        left: 0;
+    }
+    to{
+        top: 0;
+        left: 1200px;   
+    }
+}
+.box2{
+    background-color: white;
+    height: 100px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 5px;
+    position: relative;
+    animation-name: leftmove;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-direction: alternate; 
+    animation-fill-mode: both;  
+}
+@keyframes leftmove {
+    from{
+        top: 470px;
+        left: 1200px;
+        
+    }
+    to{
+        top: 470px;
+        left: 0px;
+    }
+}
+#circle{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: 5px;
+    position: relative;
+    top: 30%;
+    left: 4%;
+    animation-name: circlemove;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+}
+@keyframes circlemove{
+    0%{
+        top: 1%;
+        left: 5%;
+
+    }
+    33%{
+        top: 5%;
+       left: 90%;
+    }
+    66%{
+        top: 60%;
+        left: 10%;
+
+    }
+    100%{
+        top: 60%;
+        left: 90%;
+    }
+}

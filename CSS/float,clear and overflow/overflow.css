@@ -1,0 +1,30 @@
+.main{
+    display: flex;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+.container1{
+    margin: 10px;
+    border: 2px black solid;
+    height: 500px;
+    overflow: hidden;
+}
+.info{
+ text-align: justify;
+ font-size: 20px;
+ margin: 10px;
+}
+.container2{
+    border: 2px black solid;
+    height: 500px;
+    margin: 10px;
+    overflow: scroll;
+}
+.container3{
+    border: 2px black solid;
+    height: 500px;
+    margin: 10px;
+    overflow: auto;
+}

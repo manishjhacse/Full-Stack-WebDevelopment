@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-color: beige;
+    border: 3px solid black;
+    height: 100vh;
+    width: 100vw;
+}
+.box{
+    background-color: blue;
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    margin: 5px;
+    position: relative;
+    animation-name: box;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite ;
+}
+.circle1{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    border-radius: 100px;
+    margin: 5px;
+    position: relative;
+    animation-name: circle1;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite ;
+}
+.circle2{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    border-radius: 100px;
+    margin: 5px;
+    position: relative;
+    animation-name: circle2;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite ;
+}
+@keyframes box {
+    from{
+        left: 3%;
+        background-color: blue;
+        transform : rotate(45deg);
+    }
+    to{
+        background-color: black;
+        left: 80%;
+        transform: rotate(180deg);
+    }
+}
+@keyframes circle1 {
+    from{
+        left: 3%;
+        top: 0%;
+        background-color: blue;
+        transform: scale(1);
+    }
+    to{
+        left: 80%;
+        top: 10%;
+        background-color: aquamarine;
+        transform: scale(1.5);
+    }
+
+    
+}

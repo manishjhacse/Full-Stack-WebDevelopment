@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: beige;
+    border: 4px solid black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.instruction{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.box{
+    border: 3px solid black;
+    height: 210px;
+    width: 210px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+#box1{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+#box2{
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.circle{
+    width: 205px;
+    height: 205px;
+    border:2px solid black ;
+    border-radius: 102px;
+}
+#circle1{
+    background-color: white;
+    animation-name: color-green;
+    animation-duration: 10s;
+    animation-delay: 13s;
+    animation-timing-function: cubic-bezier(0, 1.42, 0.54, 1.66);
+    
+}
+@keyframes color-green {
+    from{
+        background-color: white;
+    }
+    to{
+        background-color: green;
+    }
+}
+#circle2{
+    background-color: white;
+    animation-name: color-yellow;
+    animation-duration: 5s;
+    animation-delay: 8s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+}
+@keyframes color-yellow {
+    from{
+        background-color: white;
+    }
+    to{
+        background-color: yellow;
+    }
+}
+#circle3{
+    background-color: white;
+    animation-name: color-red;
+    animation-duration: 10s;
+    animation-timing-function: cubic-bezier(0, 1.42, 0.54, 1.66);
+    
+}
+@keyframes color-red {
+    from{
+        background-color: white;
+    }
+    to{
+        background-color: red;
+    }
+}
+
+

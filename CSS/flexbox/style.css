@@ -1,0 +1,108 @@
+.container{
+    border: 5px black solid;
+    background-color: beige;
+    margin: 5px;
+    margin-bottom: 50px;
+    padding: 3px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box{
+    height: 200px;
+    width: 250px;
+    border: solid 2px brown;
+    margin: 2px;
+    padding: 2px;
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: aquamarine;
+}
+#box3{
+    background-color: blue;
+}
+#box4{
+    background-color: brown;
+}
+#box5{
+    background-color: orange;
+}
+.container2{
+    border: 5px black solid;
+    background-color: wheat;
+    height: 1200px;
+    margin: 5px;
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    align-content: center;
+}
+.container3{
+    border: 5px black solid;
+    background-color: wheat;
+    height: 1000px;
+    margin: 5px;
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    align-items: start;
+    justify-content: start;
+}
+#box1-2{
+    background-color: aqua;
+    /* order: 4; */
+    /* flex-grow: 5; */
+}
+#box2-2{
+    background-color: aquamarine;
+    /* order: 2; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 6; */
+}
+#box3-2{
+    background-color: blue;
+    /* order: 3; */
+    /* flex-grow: 1; */
+    flex-basis: 400px;
+}
+#box4-2{
+    background-color: brown;
+    /* order: 1; */
+    /* flex-grow: 1; */
+}
+
+.container4{
+    border: 5px black solid;
+    background-color: wheat;
+    height: 800px;
+    margin: 5px;
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+}
+#box1-3{
+    background-color: aqua;
+    align-self: end;
+}
+#box2-3{
+    background-color: aquamarine;
+    align-self: center;
+}
+#box3-3{
+    background-color: blue;
+    align-self: start;
+}
+#box4-3{
+    background-color: brown;
+    align-self: center;
+}

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: beige;
+    height: 100vh;
+    width: 100vw;
+    border: 3px solid black;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: 22px;
+    text-align: center;
+    text-align: left;
+}
+.box{
+    height: 250px;
+    width: 250px;
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    transition: all;
+    transition-duration: 1s;
+    transition-delay: .5s;
+    transition-timing-function: ease-out;
+    overflow: hidden;
+    cursor: pointer;
+}
+.box:hover{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    box-shadow: 10px 15px 15px black;
+    border-radius: 25px;
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: aquamarine;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    width: 250px;
+    border-color: brown;
+}
+.firstpara{
+     background-color: blanchedalmond;
+     border: solid red 5px;
+     border-radius: 10px;
+     /* padding: 20px; */
+    padding: 20px 15px 25px 10px;
+    margin: 20px 15px 25px 10px;
+}
+.secondpara{
+    background-color: beige;
+    border-top: dotted black 3px;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+.thirdpara{
+    background-color: yellow;
+    border-left: solid;
+    border-right: solid;
+    padding: 5px 20px;
+    margin: 10px 25px;
+}

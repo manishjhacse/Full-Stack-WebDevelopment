@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 600px;
+    border: solid black 3px;
+    padding: 1px;
+    display: grid;
+    grid-template-areas:  "hr hr hr hr"
+                "sdr main main main"
+                "sdr main main main"
+                "sdr ftr ftr ftr"
+                ;
+}
+.box{
+    border: solid blanchedalmond 2px;
+    padding: 10px;
+    text-align: center;
+    border: black 2px solid;
+}
+#box1{
+    background-color: turquoise;
+    grid-area: hr;
+}
+#box2{
+    background-color: blueviolet;
+    grid-area: sdr;
+}
+#box3{
+    background-color: aquamarine;
+    grid-area: main;
+}
+#box4{
+    background-color: aqua;
+    grid-area: ftr;
+}
