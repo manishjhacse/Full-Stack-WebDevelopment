@@ -1,6 +1,5 @@
-let arr=[56,23,1,2,21];
-// let a=arr.map((value)=>{
-//     console.log(value);
-//     return value+2;
+et arr3=[10,22,50,40,30,120,56];
+// let a=arr3.filter((value)=>{
+//     return (value%10===0);
 // })
 // console.log(a);
