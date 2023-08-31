@@ -56,3 +56,10 @@
 // console.log(mapped)
 // let mapped1=arr.filter(val=>val>=0).map(val=>{return {value:val}});
 // console.log(mapped1)
+
+
+let arr=[6,2,4,7,8]
+let sum=arr.reduce((accumulator,currentValue)=>{
+    return accumulator+currentValue;
+},0);
+console.log(sum);
