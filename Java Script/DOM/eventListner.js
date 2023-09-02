@@ -16,7 +16,7 @@ const element=document.querySelector("#wrapper");
 element,addEventListener("click",(event)=>{
     // console.log("span clicked "+event.target.textContent);
     //this is also working when we click on para,to execute only on span:
-    if(event.target.nodeName==="SPAN")
+    if(event.target.nodeName==="SPAN-")
     {
         console.log("span clicked "+event.target.textContent);
     }
